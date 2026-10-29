@@ -1,7 +1,0 @@
-system,BLEU (original),chrF (original),BLEU (accent-insensitive),chrF (accent-insensitive)
-Transformer (from scratch),1.53,19.37,1.53,19.95
-mT5-small (fine-tuned),7.0,28.99,7.0,29.56
-Llama-3.2-1B (3-shot prompting),8.03,35.39,9.25,36.95
-Llama-3.2-1B (LoRA fine-tuned),9.81,34.05,10.12,34.82
-Gemma-3-1B (3-shot prompting),7.61,36.16,10.0,38.73
-Gemma-3-1B (LoRA fine-tuned),10.29,34.79,10.54,35.64
