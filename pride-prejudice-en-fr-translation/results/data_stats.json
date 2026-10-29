@@ -1,0 +1,14 @@
+{
+ "source": "OPUS Books en-fr, Pride and Prejudice",
+ "raw_pairs": 4903,
+ "clean_pairs": 4358,
+ "train": 3488,
+ "val": 435,
+ "test": 435,
+ "mean_en_words": 21.8,
+ "mean_fr_words": 20.9,
+ "en_vocab": 5702,
+ "fr_vocab": 7833,
+ "total_en_words": 95104,
+ "total_fr_words": 91209
+}

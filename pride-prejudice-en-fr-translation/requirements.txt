@@ -1,0 +1,11 @@
+torch
+transformers>=4.50
+peft
+datasets
+tokenizers
+sentencepiece
+sacrebleu
+accelerate
+pandas
+matplotlib
+jupyter

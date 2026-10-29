@@ -1,0 +1,7 @@
+key,system,architecture,adaptation,params_total,params_trainable,train_time_s,infer_time_s,ms_per_sentence,BLEU,chrF,params (M),trainable (M),trainable %
+transformer,Transformer (from scratch),encoder-decoder,trained from scratch,7586624,7586624,90.3,10.3,23.8,1.53,19.37,7.6,7.59,100.0
+mt5,mT5-small (fine-tuned),encoder-decoder,full fine-tuning,300176768,300176768,3130.6,30.4,69.8,7.0,28.99,300.2,300.18,100.0
+llama_fewshot,Llama-3.2-1B (3-shot prompting),decoder-only,3-shot prompting,1235814400,0,0.0,145.1,333.5,8.03,35.39,1235.8,0.0,0.0
+llama_lora,Llama-3.2-1B (LoRA fine-tuned),decoder-only,LoRA fine-tuning,1239222272,3407872,1084.0,81.0,186.3,9.81,34.05,1239.2,3.41,0.28
+gemma_fewshot,Gemma-3-1B (3-shot prompting),decoder-only,3-shot prompting,999885952,0,0.0,107.5,247.1,7.61,36.16,999.9,0.0,0.0
+gemma_lora,Gemma-3-1B (LoRA fine-tuned),decoder-only,LoRA fine-tuning,1002867840,2981888,802.4,84.2,193.6,10.29,34.79,1002.9,2.98,0.3

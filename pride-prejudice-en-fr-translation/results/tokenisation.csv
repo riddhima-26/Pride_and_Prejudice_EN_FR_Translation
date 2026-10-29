@@ -1,0 +1,5 @@
+tokeniser,vocab size,EN tokens / sentence,FR tokens / sentence,"words / sentence (EN, FR)"
+Transformer BPE (ours),8000,26.5,26.6,"21.7, 20.9"
+mT5 SentencePiece,250100,33.5,38.9,"21.7, 20.9"
+Llama 3 BPE,128256,27.0,34.0,"21.7, 20.9"
+Gemma 3 SentencePiece,262145,26.6,31.1,"21.7, 20.9"
